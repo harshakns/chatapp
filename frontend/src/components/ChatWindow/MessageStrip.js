@@ -44,8 +44,8 @@ const MessageStrip = (props) => {
 };
 
 MessageStrip.propTypes = {
-  message: PropTypes.string.isRequired(),
-  by: PropTypes.string.isRequired(),
-  type: PropTypes.string.isRequired(),
+  message: PropTypes.string.isRequired,
+  by: PropTypes.string.isRequired,
+  type: PropTypes.string.isRequired,
 };
 export default MessageStrip;

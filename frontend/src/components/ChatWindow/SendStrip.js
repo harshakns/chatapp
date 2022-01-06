@@ -35,8 +35,8 @@ const SendStrip = (props) => {
   );
 };
 SendStrip.propTypes = {
-  message: PropTypes.string.isRequired(),
-  handleInputMessage: PropTypes.func.isRequired(),
-  handleSend: PropTypes.func.isRequired(),
+  message: PropTypes.string.isRequired,
+  handleInputMessage: PropTypes.func.isRequired,
+  handleSend: PropTypes.func.isRequired,
 };
 export default SendStrip;
