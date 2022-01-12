@@ -5,6 +5,7 @@ import reducers from "./redux/reducers";
 import { createStore, combineReducers } from "redux";
 import { Provider } from "react-redux";
 
+console.log("this is a test");
 const Store = new SocketStore();
 const rootReducer = combineReducers(reducers);
 const reduxStore = createStore(rootReducer);
